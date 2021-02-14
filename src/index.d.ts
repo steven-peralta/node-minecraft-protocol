@@ -104,7 +104,7 @@ declare module 'minecraft-protocol' {
 	}
 
 	interface ClientsMap {
-		[key: string]: Client
+		[id: number]: Client
 	}
 
 	export interface PingOptions {
